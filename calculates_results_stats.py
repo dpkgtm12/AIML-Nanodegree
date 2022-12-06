@@ -87,7 +87,7 @@ def calculates_results_stats(results_dic):
                 d["n_correct_dogs"]+=1
         else:
             d["n_correct_notdogs"]+=1
-    d["n_images"]=len(d)
+    d["n_images"]=len(results_dic)
     d["n_notdogs_img"]=(d["n_images"]-d["n_dogs_img"])
     
     
